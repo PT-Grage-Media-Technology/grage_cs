@@ -24,5 +24,6 @@ class AppServiceProvider extends ServiceProvider
 
     //     // Pastikan URL root sesuai dengan konfigurasi app.url
      URL::forceRootUrl(config('app.url'));
+     URL::forceScheme('https');
     }
 }
