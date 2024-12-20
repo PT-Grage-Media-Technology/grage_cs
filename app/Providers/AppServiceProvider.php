@@ -22,7 +22,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
 
-        // Pastikan URL root sesuai dengan konfigurasi app.url
-     URL::forceRootUrl(config('app.url'));
+    //     // Pastikan URL root sesuai dengan konfigurasi app.url
+    //  URL::forceRootUrl(config('app.url'));
     }
 }
